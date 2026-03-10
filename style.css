@@ -1,3 +1,77 @@
-* {
-  color: red;
+@font-face {
+    font-family: 'Norse';
+    src: url('fonts/Norse-Bold.woff2') format('woff2'),
+        url('fonts/Norse-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
 }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+}
+
+.side-banner {
+  position: relative;
+  width: min(65vh, 40%);
+  overflow: hidden;
+}
+
+.banner-image {
+  height: 100vh;
+}
+
+.banner-logo {
+  position: absolute;
+  top: 25%;
+  height: 15%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 0, 0, 0.5);
+}
+
+.banner-icon {
+  height: 90%;
+}
+
+.banner-text {
+  font-size: 3.5rem;
+  color: white;
+  font-family: Norse;
+  font-weight: bold;
+}
+
+.credit {
+  font-size: 0.5rem;
+  position: absolute;
+  width: 100%;
+  bottom: 1rem;
+  color: white;
+  text-align: center;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+span {
+  background-color: red;
+}
+
+.content {
+  flex: 1;
+}
+
+
