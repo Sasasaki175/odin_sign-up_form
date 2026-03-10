@@ -101,14 +101,13 @@ label {
   color: white;
 }
 
-.content {
+.main-content {
   flex: 1;
 }
 
-.form-content {
+.form-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 
 .form-top p {
