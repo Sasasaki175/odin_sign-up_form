@@ -8,49 +8,69 @@
 </head>
 <body>
   <div class="container">
-    <div class="side-banner">
+    <aside class="side-banner">
       <img class="banner-image" src="images/halie-west-25xggax4bSA-unsplash.jpg" alt="banner-background">
       <div class="banner-logo">
         <img class="banner-icon" src="images/odin-lined.png" alt="odin logo">
         <div class="banner-text">ODIN</div>
       </div>
       <div class="credit">Photo by <a href="https://unsplash.com/@haliewestphoto" target="_blank" rel="noreferrer">Halie West</a> on <a href="https://unsplash.com/" target="_blank" rel="noreferrer">Unsplash</a></div>
-    </div>
-    <div class="content">
-      <section>
-        <span>
-          This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.
-        </span>
-        <span>
-          You <em>know</em> you want to.
-        </span>
-      </section>
-      <section>
-        <form action="">
-          <span>Let's do this!</span>
-          <div class="form-group">
-            <div class="form-first-row">
-              <label for="first-name">FIRST NAME</label>
-              <input type="text" id="first-name">
-              <label for="last-name">LAST NAME</label>
-              <input type="text" id="last-name">
+    </aside>
+    <main class="content">
+      <form action="">
+        <div class="form-content">
+          <section class="form-top">
+            <div class="form-top-text">
+              <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
+              <p>You <em>know</em> you want to.</p>
             </div>
-            <div class="form-second-row">
-              <label for="email">EMAIL</label>
-              <input type="email" id="email">
-              <label for="phone">PHONE NUMBER</label>
-              <input type="tel" id="phone">
+          </section>
+          <section class="form-mid">
+            <h3>Let's do this!</h3>
+            <div class="form-group">
+              <div class="form-row">
+                <div class="field">
+                  <label for="first-name">FIRST NAME</label>
+                  <input type="text" id="first-name" name="first-name">
+                </div>
+                <div class="field">
+                  <label for="last-name">LAST NAME</label>
+                  <input type="text" id="last-name" name="last-name">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="field">
+                  <label for="email">EMAIL</label>
+                  <input type="email" id="email" name="email">
+                </div>
+                <div class="field">
+                  <label for="phone">PHONE NUMBER</label>
+                  <input type="tel" id="phone" name="phone-number">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="field">
+                  <label for="password">PASSWORD</label>
+                  <input type="password" id="password" name="password">
+                </div>
+                <div class="field">
+                  <label for="confirm-password">CONFIRM PASSWORD</label>
+                  <input type="password" id="confirm-password" name="confirm-password">
+                </div>
+              </div>
             </div>
-            <div class="form-third-row">
-              <label for="password">PASSWORD</label>
-              <input type="password" id="password">
-              <label for="confirm-password">CONFIRM PASSWORD</label>
-              <input type="password" id="confirm-password">
+          </section>
+          <section class="form-bottom">
+            <button type="submit">
+              Create Account
+            </button>
+            <div>
+              Already have an account? <a href="#">Log in</a>
             </div>
-          </div>
-        </form>
-      </section>
-    </div>
+          </section>
+        </div>
+      </form>
+    </main>
   </div>
 </body>
 </html>

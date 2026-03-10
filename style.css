@@ -13,8 +13,41 @@
   padding: 0;
 }
 
+section {
+  padding: 0 30px 10px;
+}
+
+h3 {
+  margin: 1rem 0;
+}
+
+input {
+  border: #E5E7EB solid 1px;
+  border-radius: 3px;
+  height: 1.5rem;
+  padding-left: 0.5rem;
+}
+
+input:focus {
+  border: blue solid 1px;
+  outline: none;
+  border-radius: 3px;
+  box-shadow: 1px 1px 2px grey;
+}
+
+label {
+  font-size: 5pt;
+}
+
+.form-mid {
+  box-shadow: 1px 1px 2px grey;
+  background-color: white;
+  width: 100%;
+}
+
 .container {
   display: flex;
+  height: 100vh;
 }
 
 .side-banner {
@@ -58,20 +91,40 @@
   text-align: center;
 }
 
-a:link {
+.credit a:link {
   color: white;
 }
 
-a:visited {
+.credit a:visited {
   color: white;
-}
-
-span {
-  background-color: red;
 }
 
 .content {
   flex: 1;
 }
 
+.form-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-top p {
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+.form-top-text {
+  margin: 3rem 0;
+}
+
+.form-row {
+  display: flex;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  margin: 0 3rem 0.3rem 0;
+}
 
