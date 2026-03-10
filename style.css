@@ -11,6 +11,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-weight: 500;
 }
 
 section {
@@ -38,7 +39,6 @@ input:focus {
 label {
   font-size: 0.6rem;
   letter-spacing: 0.05rem;
-  font-weight: 500;
 }
 
 .form-mid {
@@ -129,14 +129,17 @@ label {
   margin: 0 3rem 0.3rem 0;
 }
 
-.form-bottom {
-
-}
 button[type="submit"] {
-  background-color: teal;
+  background-color: darkolivegreen;
   color: white;
+  margin: 1.5rem 0;
   box-shadow: 1px 1px 1px grey;
   border-radius: 5px;
   border: none;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 2rem;
+}
+
+.form-bottom a {
+  color: darkolivegreen;
+  text-decoration: none;
 }
