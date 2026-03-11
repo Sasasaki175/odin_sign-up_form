@@ -29,12 +29,6 @@ input {
   padding-left: 0.5rem;
 }
 
-input:focus {
-  border: blue solid 1px;
-  outline: none;
-  border-radius: 3px;
-  box-shadow: 1px 1px 2px grey;
-}
 
 label {
   font-size: 0.6rem;
@@ -116,7 +110,7 @@ label {
 }
 
 .form-top-text {
-  margin: 3rem 0;
+  margin: 1.5rem 0;
 }
 
 .form-row {
@@ -129,6 +123,17 @@ label {
   margin: 0 3rem 0.3rem 0;
 }
 
+input[type="password"] {
+  border: red solid 1px;
+}
+
+input:focus {
+  border: blue solid 1px;
+  outline: none;
+  border-radius: 3px;
+  box-shadow: 1px 1px 2px grey;
+}
+
 button[type="submit"] {
   background-color: darkolivegreen;
   color: white;
@@ -139,7 +144,11 @@ button[type="submit"] {
   padding: 0.5rem 2rem;
 }
 
-.form-bottom a {
+.login-link {
+  font-size: 0.7rem;
+}
+
+.login-link a {
   color: darkolivegreen;
   text-decoration: none;
 }
