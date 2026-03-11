@@ -124,7 +124,7 @@ label {
   margin: 0 3rem 0.3rem 0;
 }
 
-input[type="password"] {
+input[type="password"]:invalid {
   border: red solid 1px;
 }
 
